@@ -25,7 +25,7 @@ for i in "${!incident_grids[@]}"; do
         --incident-grid=$incident_grid \
         --grid-dir=$grid_dir \
         --cloudy-output-dir=$cloudy_output_dir \
-        --cloudy-paramfile=c23.01-sps \
+        --cloudy-paramfile=$config_file \
         --machine=$machine \
         --cloudy-executable-path=$cloudy_executable_path
 
