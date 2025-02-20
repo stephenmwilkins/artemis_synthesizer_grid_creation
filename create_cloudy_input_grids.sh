@@ -3,7 +3,7 @@
 # queue.
 
 grid_dir='/research/astrodata/highz/synthesizer/grids'
-cloudy_output_dir='research/astrodata/highz/synthesizer/cloudy'
+cloudy_output_dir='/research/astrodata/highz/synthesizer/cloudy'
 cloudy_executable_path='/its/home/sw376/flare/software/cloudy'
 machine='artemis'
 

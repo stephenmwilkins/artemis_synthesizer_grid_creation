@@ -2,7 +2,7 @@
 
 grid_dir='/research/astrodata/highz/synthesizer/grids'
 output_dir='/its/home/sw376/astrodata/gaslight/cloudy'
-cloudy_output_dir='research/astrodata/highz/synthesizer/cloudy'
+cloudy_output_dir='/research/astrodata/highz/synthesizer/cloudy'
 cloudy_executable_path='/its/home/sw376/flare/software/cloudy'
 machine='artemis'
 
