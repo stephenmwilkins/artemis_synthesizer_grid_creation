@@ -38,6 +38,12 @@ config_files=(
   "reference_ionisation_parameter"
 )
 
+config_files=(
+  "CMB"
+  "fixed_ionisation_parameter"
+  "abundance_scalings"
+)
+
 # change directory
 cd ..
 
