@@ -39,9 +39,7 @@ config_files=(
 )
 
 config_files=(
-  "CMB"
-  "fixed_ionisation_parameter"
-  "abundance_scalings"
+  "no_abundance_scalings"
 )
 
 # change directory
