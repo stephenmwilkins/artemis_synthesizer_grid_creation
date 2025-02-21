@@ -41,6 +41,6 @@ for i in "${!config_files[@]}"; do
 
     config_file=${config_files[$i]}
     echo sbatch ${incident_grid}_cloudy_${default_config_file}-$config_file
+    sbatch ${incident_grid}_cloudy_${default_config_file}-$config_file
     
-
 done
