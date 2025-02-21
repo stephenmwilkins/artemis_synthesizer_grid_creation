@@ -30,16 +30,12 @@ config_files=(
   "fixed_ionisation_parameter"
   "grains:ISM"
   "hydrogen_density"
-  "o_abundance_scalings"
+  "no_abundance_scalings"
   "no_grains"
   "planeparallel"
   "reference_abundance:Asplund2009"
   "reference_abundance:Gutkin2016"
   "reference_ionisation_parameter"
-)
-
-config_files=(
-  "no_abundance_scalings"
 )
 
 # change directory

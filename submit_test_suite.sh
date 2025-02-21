@@ -40,7 +40,7 @@ cd ..
 for i in "${!config_files[@]}"; do
 
     config_file=${config_files[$i]}
-    echo $incident_grid_$default_config_file-$default_config_file
+    echo $incident_grid_$default_config_file-$config_file
     # sbatch $incident_grid_$default_config_file-$default_config_file
 
 done
