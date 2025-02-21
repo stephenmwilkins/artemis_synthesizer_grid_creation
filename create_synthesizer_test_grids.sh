@@ -7,7 +7,7 @@ cloudy_executable_path='/its/home/sw376/flare/software/cloudy'
 machine='artemis'
 
 # incident grid to use
-incident_grid="test"
+incident_grid="bpass-2.2.1-bin_chabrier03-0.1,300.0-new_ages:6,7,8"
 
 # default parameter file
 default_config_file="c23.01-sps"
