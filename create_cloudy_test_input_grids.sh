@@ -50,8 +50,8 @@ for i in "${!config_files[@]}"; do
         --grid-dir=$grid_dir \
         --cloudy-output-dir=$cloudy_output_dir \
         --cloudy-paramfile=$default_config_file \
-        --cloudy-paramfile-extra=$config_file \
+        --cloudy-paramfile-extra=test_suite/$config_file \
         --machine=$machine \
-        --cloudy-executable-path=test_suite/$cloudy_executable_path
+        --cloudy-executable-path=$cloudy_executable_path
 
 done
