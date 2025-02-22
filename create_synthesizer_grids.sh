@@ -8,9 +8,15 @@ machine='artemis'
 
 # list of incident grids
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
+incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0-new_ages:6,7,8")
 
 # list of config files
 config_files=("c23.01-sps")
+
+
+# list of config files
+config_files=("c23.01-sps")
+config_files=("c23.01-sps-grid_limited")
 
 # change directory
 cd ..
@@ -25,5 +31,6 @@ for i in "${!incident_grids[@]}"; do
     --grid-dir=$grid_dir \
     --cloudy-output-dir=$cloudy_output_dir \
     --cloudy-paramfile=$config_file \
-
+    --include-spectra=false
+    
 done
