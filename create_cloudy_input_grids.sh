@@ -12,6 +12,7 @@ incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
 
 # list of config files
 config_files=("c23.01-sps")
+config_files=("c23.01-sps-grid_limited")
 
 # change directory
 cd ..
