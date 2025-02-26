@@ -27,6 +27,6 @@ for i in "${!incident_grids[@]}"; do
     --grid-dir=$grid_dir \
     --cloudy-output-dir=$cloudy_output_dir \
     --cloudy-paramfile=$config_file \
-    # --include-spectra
+    --include-spectra
     
 done
