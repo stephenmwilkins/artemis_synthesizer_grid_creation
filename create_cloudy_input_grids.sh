@@ -10,11 +10,13 @@ machine='artemis'
 # list of incident grids
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0-new_ages:6,7,8")
+incident_grids=("qsosed-isotropic-limited")
 
 # list of config files
 config_files=("c23.01-sps")
 config_files=("c23.01-sps-grid_limited")
-config_files=("c23.01-sps-grid")
+config_files=("c23.01-agn-limited")
+
 
 # change directory
 cd ..
