@@ -8,14 +8,12 @@ cloudy_executable_path='/its/home/sw376/flare/software/cloudy'
 machine='artemis'
 
 # incident grid to use
-incident_grid="bpass-2.2.1-bin_chabrier03-0.1,300.0-new_ages:6,7,8"
+incident_grid="bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.00e+07,1.00e+08]"
 
 # default parameter file
 default_config_file="c23.01-sps"
 
 # list of config files
-# config_files=("CMB" "QnH" "alpha" "column_density" "constant_pressure" "default" "depletion_model:CloudyClassic" "depletion_model:Gutkin2016" "depletion_model:None" "depletion_scale" "fixed_ionisation_parameter" "grains:ISM" "hydrogen_density" "o_abundance_scalings" "no_grains" "planeparallel" "reference_abundance:Asplund2009" "reference_abundance:Gutkin2016" "reference_ionisation_parameter")
-
 config_files=(
   "CMB"
   "QnH"
