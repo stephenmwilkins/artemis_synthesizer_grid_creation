@@ -13,7 +13,7 @@ machine='artemis'
 # config_files=("c23.01-sps")
 
 incident_grids=("qsosed-test" "relqso-test")
-config_files=("c23.01-agn-test" "c23.01-agn-test")
+config_files=("c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr" "c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr")
 
 
 # change directory
