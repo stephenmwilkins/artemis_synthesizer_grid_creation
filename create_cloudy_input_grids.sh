@@ -12,7 +12,7 @@ machine='artemis'
 # incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
 # config_files=("c23.01-sps")
 
-incident_grids=("qsosed-test" "relqso-test")
+incident_grids=("qsosed-test" "qsosed-test" "relqso-test" "relqso-test")
 config_files=("c23.01-blr-test" "c23.01-nlr-test" "c23.01-blr-test" "c23.01-nlr-test")
 
 
