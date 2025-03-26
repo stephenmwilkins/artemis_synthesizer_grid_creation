@@ -17,6 +17,11 @@ config_files=("c23.01-agn-test" "c23.01-agn-test")
 incident_grids=("qsosed-test" "relqso-test")
 config_files=("c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr" "c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr")
 
+incident_grids=("qsosed-test" "qsosed-test" "relqso-test" "relqso-test")
+config_files=("c23.01-blr-test" "c23.01-nlr-test" "c23.01-blr-test" "c23.01-nlr-test")
+
+
+
 # change directory
 cd ..
 
