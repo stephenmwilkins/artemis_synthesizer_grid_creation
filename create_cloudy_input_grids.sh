@@ -102,12 +102,12 @@ for i in "${!incident_grids[@]}"; do
 
     echo $i, $incident_grid, $config_file
 
-    # python create_cloudy_input_grid.py \
-    #     --incident-grid=$incident_grid \
-    #     --grid-dir=$grid_dir \
-    #     --cloudy-output-dir=$cloudy_output_dir \
-    #     --cloudy-paramfile=$config_file \
-    #     --machine=$machine \
-    #     --cloudy-executable-path=$cloudy_executable_path
+    python create_cloudy_input_grid.py \
+        --incident-grid=$incident_grid \
+        --grid-dir=$grid_dir \
+        --cloudy-output-dir=$cloudy_output_dir \
+        --cloudy-paramfile=$config_file \
+        --machine=$machine \
+        --cloudy-executable-path=$cloudy_executable_path
 
 done
