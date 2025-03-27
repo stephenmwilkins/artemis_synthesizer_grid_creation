@@ -80,6 +80,6 @@ for i in "${!incident_grids[@]}"; do
     fi
 
     echo sbatch ${incident_grid}_cloudy-${config_file}.slurm
-    # sbatch ${incident_grid}_cloudy-${config_file}.slurm
+    sbatch ${incident_grid}_cloudy-${config_file}.slurm
 
 done
