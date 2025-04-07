@@ -86,6 +86,12 @@ incident_grids=(
 config_files=("c23.01-sps")
 
 
+incident_grids=("qsosed-isotropic-limited")
+config_files=("c23.01-blr-limited")
+
+
+# config_files=("c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr" "c23.01-blr" "c23.01-blr-efrac:-2" "c23.01-nlr")
+
 # change directory
 cd ..
 

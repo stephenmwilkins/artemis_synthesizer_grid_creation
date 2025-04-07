@@ -79,13 +79,22 @@ incident_grids=(
     # fsps-3.2-mist-miles_chabrier03-0.5,120
     # fsps-3.2-mist-miles_chabrier03-1,120
     # fsps-3.2-mist-miles_chabrier03-10,120
-    fsps-3.2-mist-miles_chabrier03-2,120
-    fsps-3.2-mist-miles_chabrier03-20,120
-    fsps-3.2-mist-miles_chabrier03-5,120
-    fsps-3.2-mist-miles_chabrier03-50,120
+    # fsps-3.2-mist-miles_chabrier03-2,120
+    # fsps-3.2-mist-miles_chabrier03-20,120
+    # fsps-3.2-mist-miles_chabrier03-5,120
+    # fsps-3.2-mist-miles_chabrier03-50,120
 )
 config_files=("c23.01-sps")
 
+# these failed
+# bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-0.08,1-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-0.08,2-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-50,120-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-5,120-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-20,120-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-1,120-c23.01-sps
+# fsps-3.2-mist-miles_chabrier03-10,120-c23.01-sps
 
 
 # change directory
