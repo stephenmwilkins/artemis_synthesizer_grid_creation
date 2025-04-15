@@ -97,6 +97,10 @@ config_files=("c23.01-sps")
 # fsps-3.2-mist-miles_chabrier03-10,120-c23.01-sps
 
 
+incident_grids=("qsosed-isotropic-limited")
+config_files=("c23.01-blr-limited")
+
+
 # change directory
 cd ..
 
