@@ -115,6 +115,8 @@ for i in "${!incident_grids[@]}"; do
         config_file=${config_files[$i]}
     fi
 
+    echo $incident_grid $config_file
+
     python create_synthesizer_grid.py \
     --incident-grid=$incident_grid \
     --grid-dir=$grid_dir \
