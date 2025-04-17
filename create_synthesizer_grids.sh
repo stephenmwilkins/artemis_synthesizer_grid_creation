@@ -123,6 +123,8 @@ for i in "${!incident_grids[@]}"; do
     --cloudy-output-dir=$cloudy_output_dir \
     --cloudy-paramfile=$config_file \
     --include-spectra \
+    --machine=$machine \
+    --cloudy-executable-path=$cloudy_executable_path \
     > ${incident_grid}_cloudy-${config_file}.out
     
 done
