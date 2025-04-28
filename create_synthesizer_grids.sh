@@ -117,6 +117,15 @@ for i in "${!incident_grids[@]}"; do
 
     echo $incident_grid $config_file
 
+    echo create_synthesizer_grid.py \
+    --incident-grid=$incident_grid \
+    --grid-dir=$grid_dir \
+    --cloudy-output-dir=$cloudy_output_dir \
+    --cloudy-paramfile=$config_file \
+    --include-spectra \
+    --machine=$machine \
+    --cloudy-executable-path=$cloudy_executable_path \
+
     python create_synthesizer_grid.py \
     --incident-grid=$incident_grid \
     --grid-dir=$grid_dir \
