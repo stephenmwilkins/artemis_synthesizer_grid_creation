@@ -125,6 +125,6 @@ for i in "${!incident_grids[@]}"; do
     --include-spectra \
     --machine=$machine \
     --cloudy-executable-path=$cloudy_executable_path \
-    > ${incident_grid}_cloudy-${config_file}.out
+    | tee ${incident_grid}_cloudy-${config_file}.out
     
 done
