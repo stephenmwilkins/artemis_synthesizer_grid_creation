@@ -6,11 +6,6 @@ cloudy_output_dir='/research/astrodata/highz/synthesizer/cloudy'
 cloudy_executable_path='/its/home/sw376/flare/software/cloudy'
 machine='artemis'
 
-# list of incident grids
-incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
-config_files=("c23.01-sps")
-
-
 incident_grids=("qsosed-test" "relqso-test")
 config_files=("c23.01-agn-test" "c23.01-agn-test")
 
@@ -97,8 +92,12 @@ config_files=("c23.01-sps")
 # fsps-3.2-mist-miles_chabrier03-10,120-c23.01-sps
 
 
-incident_grids=("qsosed-isotropic-limited")
-config_files=("c23.01-blr-limited")
+# incident_grids=("qsosed-isotropic-limited")
+# config_files=("c23.01-blr-limited")
+
+
+incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
+config_files=("c23.01-sps")
 
 
 # change directory
