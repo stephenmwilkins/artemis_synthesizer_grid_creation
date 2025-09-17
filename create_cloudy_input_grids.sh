@@ -92,6 +92,9 @@ config_files=("c23.01-sps")
 incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
 config_files=("c23.01-sps")
 
+incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.00e+07,1.00e+08]")
+config_files=("c23.01-sps-grid")
+
 # change directory
 cd ..
 
