@@ -16,38 +16,38 @@ incident_grids=("qsosed-test" "qsosed-test" "relqso-test" "relqso-test")
 config_files=("c23.01-blr-test" "c23.01-nlr-test" "c23.01-blr-test" "c23.01-nlr-test")
 
 incident_grids=(
-    # bc03-2016-BaSeL_chabrier-0.1,100
-    # bc03-2016-BaSeL_kroupa-0.1,100
-    # bc03-2016-BaSeL_salpeter-0.1,100
-    # bc03-2016-Miles_chabrier-0.1,100
-    # bc03-2016-Miles_kroupa-0.1,100
-    # bc03-2016-Miles_salpeter-0.1,100
-    # bc03-2016-Stelib_chabrier-0.1,100
-    # bc03-2016-Stelib_kroupa-0.1,100
-    # bc03-2016-Stelib_salpeter-0.1,100
-    # bc03_chabrier03-0.1,100
-    # bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.0
-    # bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.35
-    # bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.7
-    # bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.0
-    # bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.35
-    # bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.7
-    # bpass-2.2.1-bin_chabrier03-0.1,100.0
-    # bpass-2.2.1-bin_chabrier03-0.1,300.0
-    # bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.0
-    # bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.35
-    # bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.7
-    # bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.0
-    # bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.35
-    # bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.7
-    # bpass-2.2.1-sin_chabrier03-0.1,100.0
-    # bpass-2.2.1-sin_chabrier03-0.1,300.0
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha-0.2
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.0
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.2
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.4
-    # bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.6
+    bc03-2016-BaSeL_chabrier-0.1,100
+    bc03-2016-BaSeL_kroupa-0.1,100
+    bc03-2016-BaSeL_salpeter-0.1,100
+    bc03-2016-Miles_chabrier-0.1,100
+    bc03-2016-Miles_kroupa-0.1,100
+    bc03-2016-Miles_salpeter-0.1,100
+    bc03-2016-Stelib_chabrier-0.1,100
+    bc03-2016-Stelib_kroupa-0.1,100
+    bc03-2016-Stelib_salpeter-0.1,100
+    bc03_chabrier03-0.1,100
+    bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.0
+    bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.35
+    bpass-2.2.1-bin_bpl-0.1,1.0,100.0-1.3,2.7
+    bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.0
+    bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.35
+    bpass-2.2.1-bin_bpl-0.1,1.0,300.0-1.3,2.7
+    bpass-2.2.1-bin_chabrier03-0.1,100.0
+    bpass-2.2.1-bin_chabrier03-0.1,300.0
+    bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.0
+    bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.35
+    bpass-2.2.1-sin_bpl-0.1,1.0,100.0-1.3,2.7
+    bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.0
+    bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.35
+    bpass-2.2.1-sin_bpl-0.1,1.0,300.0-1.3,2.7
+    bpass-2.2.1-sin_chabrier03-0.1,100.0
+    bpass-2.2.1-sin_chabrier03-0.1,300.0
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha-0.2
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.0
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.2
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.4
+    bpass-2.3-bin_bpl-0.1,1.0,300.0-1.3,2.35_alpha0.6
     # fsps-3.2-mist-miles_bpl-0.08,0.5,1,120-1.3,2.3,1.5
     # fsps-3.2-mist-miles_bpl-0.08,0.5,1,120-1.3,2.3,1.6
     # fsps-3.2-mist-miles_bpl-0.08,0.5,1,120-1.3,2.3,1.7
@@ -96,12 +96,12 @@ config_files=("c23.01-sps")
 # config_files=("c23.01-blr-limited")
 
 
-incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
-config_files=("c23.01-sps")
+# incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
+# config_files=("c23.01-sps")
 
 
-incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.00e+07,1.00e+08]")
-config_files=("c23.01-sps-grid")
+# incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.00e+07,1.00e+08]")
+# config_files=("c23.01-sps-grid")
 
 # change directory
 cd ..
