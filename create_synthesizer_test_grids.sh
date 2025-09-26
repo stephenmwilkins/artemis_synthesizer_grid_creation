@@ -32,6 +32,8 @@ config_files=(
   "reference_abundance:Asplund2009"
   "reference_abundance:Gutkin2016"
   "reference_ionisation_parameter"
+  "CO"
+  "NO"
 )
 
 # change directory
