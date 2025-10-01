@@ -27,7 +27,7 @@ config_files=(
   # "depletion_scale"
   # "fixed_ionisation_parameter"
   # "grains:ISM"
-  "hydrogen_density"
+  # "hydrogen_density"
   # "no_abundance_scalings"
   # "no_grains"
   # "planeparallel"
