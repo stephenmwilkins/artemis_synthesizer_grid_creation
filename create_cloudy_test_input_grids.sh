@@ -25,17 +25,17 @@ config_files=(
   # "depletion_model:Gutkin2016"
   # "depletion_model:None"
   # "depletion_scale"
-  "fixed_ionisation_parameter"
+  # "fixed_ionisation_parameter"
   # "grains:ISM"
-  # "hydrogen_density"
+  "hydrogen_density"
   # "no_abundance_scalings"
   # "no_grains"
   # "planeparallel"
   # "reference_abundance:Asplund2009"
   # "reference_abundance:Gutkin2016"
   # "reference_ionisation_parameter"
-  # "CO"
-  # "NO"
+  "CO"
+  "NO"
 )
 
 # change directory

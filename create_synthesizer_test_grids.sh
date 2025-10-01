@@ -23,7 +23,7 @@ config_files=(
   # "depletion_model:Gutkin2016"
   # "depletion_model:None"
   # "depletion_scale"
-  "fixed_ionisation_parameter"
+  # "fixed_ionisation_parameter"
   # "grains:ISM"
   "hydrogen_density"
   # "no_abundance_scalings"
