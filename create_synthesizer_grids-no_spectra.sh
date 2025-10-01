@@ -30,7 +30,6 @@ for i in "${!incident_grids[@]}"; do
     --grid-dir=$grid_dir \
     --cloudy-output-dir=$cloudy_output_dir \
     --cloudy-paramfile=$config_file \
-    --include-spectra \
     --machine=$machine \
     --cloudy-executable-path=$cloudy_executable_path \
 
@@ -39,7 +38,6 @@ for i in "${!incident_grids[@]}"; do
     --grid-dir=$grid_dir \
     --cloudy-output-dir=$cloudy_output_dir \
     --cloudy-paramfile=$config_file \
-    --include-spectra \
     --machine=$machine \
     --cloudy-executable-path=$cloudy_executable_path \
     | tee ${incident_grid}_cloudy-${config_file}.out
