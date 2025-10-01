@@ -126,6 +126,7 @@ for i in "${!incident_grids[@]}"; do
     --include-spectra \
     --machine=$machine \
     --cloudy-executable-path=$cloudy_executable_path \
+    --include-spectra \
 
     python create_synthesizer_grid.py \
     --incident-grid=$incident_grid \
@@ -135,6 +136,7 @@ for i in "${!incident_grids[@]}"; do
     --include-spectra \
     --machine=$machine \
     --cloudy-executable-path=$cloudy_executable_path \
+    --include-spectra \
     | tee ${incident_grid}_cloudy-${config_file}.out
     
 done
