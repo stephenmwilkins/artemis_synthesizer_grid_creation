@@ -87,7 +87,7 @@ config_files=("c23.01-sps-UnH")
 
 grid_dir='/research/astrodata/highz/synthesizer/grids/agn'
 incident_grids=("qsosed-isotropic")
-config_files=("c23.01-sps-nlr")
+config_files=("c23.01-nlr")
 
 
 # change directory
