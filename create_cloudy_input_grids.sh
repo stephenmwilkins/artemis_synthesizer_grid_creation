@@ -89,6 +89,9 @@ grid_dir='/research/astrodata/highz/synthesizer/grids/agn'
 incident_grids=("qsosed-isotropic")
 config_files=("c23.01-nlr")
 
+incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.00e+07,1.00e+08]")
+config_files=("c23.01-sps-grid")
+
 
 # change directory
 cd ..
