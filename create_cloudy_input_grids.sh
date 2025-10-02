@@ -82,8 +82,8 @@ incident_grids=(
 )
 config_files=("c23.01-sps")
 
-incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0")
-config_files=("c23.01-sps-UnH")
+incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0" "qsosed-isotropic")
+config_files=("c23.01-sps-UnH" "c23.01-nlr")
 
 # incident_grids=("qsosed-isotropic-limited")
 # config_files=("c23.01-blr-limited")
