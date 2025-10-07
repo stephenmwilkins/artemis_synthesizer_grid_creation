@@ -93,6 +93,10 @@ incident_grids=("bpass-2.2.1-bin_chabrier03-0.1,300.0_reduced_ages_[1.00e+06,1.0
 config_files=("c23.01-sps-grid")
 
 
+incident_grids=("qsosed-test" "qsosed-test")
+config_files=("c23.01-nlr-test" "c23.01-blr-test")
+
+
 # change directory
 cd ..
 
