@@ -144,7 +144,7 @@ for i in "${!incident_grids[@]}"; do
     --cloudy-paramfile=$config_file \
     --include-spectra \
     --machine=$machine \
-    --cloudy-executable-path=$cloudy_executable_path \
-    | tee ${incident_grid}_cloudy-${config_file}.out
+    --cloudy-executable-path=$cloudy_executable_path
+    # | tee ${incident_grid}_cloudy-${config_file}.out
     
 done
